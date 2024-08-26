@@ -40,3 +40,20 @@ header {
         color: red;
     }
 }
+
+.container {
+    color: rgb(202, 111, 111);
+    text-align: center;
+    padding: 1em;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
