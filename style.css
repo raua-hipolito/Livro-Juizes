@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black
+}
+
+header {
+    color: white;
+    background-color: #333;
+    animation-name: exemple;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+@keyframes exemple {
+    from {
+        background-color: #333;
+    }
+    to {
+        background-color: #090808;
+    }
+}
+
+.atencao {
+    color: white;
+    animation-name: exemple2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+    text-align: center;
+}
+
+@keyframes exemple2 {
+    from {
+        color: white;
+    }
+    to {
+        color: red;
+    }
+}
