@@ -1,11 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: black
+    background-image: url(image/panoramic-view-sunset-night.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 header {
     color: white;
-    background-color: #333;
+    background-color: #000000;
     animation-name: exemple;
     animation-duration: 7s;
     animation-iteration-count: infinite;
@@ -16,7 +17,7 @@ header {
 
 @keyframes exemple {
     from {
-        background-color: #333;
+        background-color: #040404;
     }
     to {
         background-color: #090808;
@@ -42,9 +43,10 @@ header {
 }
 
 .container {
-    color: rgb(202, 111, 111);
+    color: rgb(238, 0, 0);
     text-align: center;
     padding: 1em;
+
 }
 
 button {
