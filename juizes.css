@@ -39,3 +39,10 @@ p {
     margin: 0 auto; /* Centraliza o texto */
     text-align: justify; /* Justifica o texto para melhor alinhamento */
 }
+
+.videoOrigin {
+    height: 410px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
