@@ -126,3 +126,49 @@ h4 {
         font-size: 1.2em;
     }
 }
+
+footer {
+    background-color: #444; /* Cor de fundo mais impactante */
+    color: #f4e8e8; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 1em;
+    position: fixed; /* Mantém o footer fixo na parte inferior */
+    bottom: 0; /* Alinha o footer à parte inferior da tela */
+    width: 100%; /* Largura total */
+    border-top: 4px solid #b46767; /* Linha superior mais espessa para destaque */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Sombra para adicionar profundidade */
+    z-index: 1000; /* Garante que o footer fique acima de outros elementos */
+}
+
+footer p {
+    margin: 0; /* Remove margens do parágrafo */
+    font-size: 1em; /* Tamanho da fonte do texto */
+}
+
+footer a {
+    color: #f4e8e8; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado do link */
+    font-weight: bold; /* Deixa o link em negrito */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+    color: #ffcccb; /* Muda a cor do link ao passar o mouse */
+}
+
+/* Media Queries para Footer */
+@media (max-width: 768px) {
+    footer {
+        padding: 0.75em;
+        font-size: 0.9em; /* Ajusta o tamanho da fonte */
+        border-top-width: 3px; /* Reduz a largura da borda superior */
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 0.5em;
+        font-size: 0.8em; /* Ajusta o tamanho da fonte */
+        border-top-width: 2px; /* Reduz ainda mais a largura da borda superior */
+    }
+}
