@@ -90,7 +90,7 @@ h4 {
     }
 
     .videoOrigin {
-        height: auto; /* Ajusta a altura do vídeo */
+        height: 250px; /* Aumenta a altura do vídeo */
     }
 
     h4 {
@@ -119,7 +119,7 @@ h4 {
     }
 
     .videoOrigin {
-        height: auto; /* Ajusta a altura do vídeo */
+        height: 300px; /* Aumenta ainda mais a altura do vídeo em telas pequenas */
     }
 
     h4 {
