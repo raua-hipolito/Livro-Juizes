@@ -39,11 +39,19 @@ p {
     text-align: justify; /* Justifica o texto para melhor alinhamento */
     font-size: 1.2em;
     color: blanchedalmond;
+    padding: 10px 0 10px 0;
 }
 
 .videoOrigin {
-    height: 410px;
+    height: 210px;
     width: 100%;
     margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(221, 221, 221);
+    font-size: 1.5em;
     padding: 10px 0 10px 0;
 }
